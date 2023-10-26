@@ -43,7 +43,7 @@ The full data used in the paper is at https://storage.googleapis.com/emotions_co
 
 ## License and disclaimer
 
-Copyright 2023, the authors
+Copyright 2023, The Authors.
 
 All software is licensed under the Apache License, Version 2.0 (Apache 2.0);
 you may not use this file except in compliance with the Apache 2.0 license.
