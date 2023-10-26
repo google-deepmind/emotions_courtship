@@ -1,29 +1,49 @@
-# emotions_courtship
+# Emotions and courtship
 
-TODO(b/303380214): Add a description for your new project, explain what is
-being released here, etc... Additional, the following sections are normally
-expected for all releases. Feel free to add additional sections if appropriate
-for your project.
-
-## Installation
-
-Write instructions for how the user should install your code. The instructions
-should ideally be valid when copy-pasted. You can combine this with the Usage
-section if there's no separate installation step.
+This repository contains the code accompanying the publication **Emotions and
+courtship help bonded pairs cooperate, but emotional agents are vulnerable to
+deceit**, published in the Proceedings of the National Academy of Sciences, 2023.
 
 ## Usage
 
-Write example usage of your code. The instructions should ideally be valid when
-copy-pasted, and will be used by your technical reviewer to verify that your
-package functions correctly.
+Clone this repository with
+
+```sh
+git clone https://github.com/deepmind/deepmind-research.git
+cd deepmind-research/emotions_courtship
+```
+
+You can run the model with default parameters with:
+
+```python
+python run_play.py
+```
+
+You can change the model parameters by editing the `config.py` file.
+
+You can also load the dataset and the code used to produce the figures in the
+research article using Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/deepmind_research/blob/master/emotions_courtship/notebooks/data_analysis.ipynb)
+
+The full data used in the paper is at https://storage.googleapis.com/emotions_courtship/data.zip
 
 ## Citing this work
 
-Add citation details here, usually a pastable BibTeX snippet.
+```bibtex
+@article{sadedin2023emotions,
+  title={Emotions and courtship help bonded pairs cooperate, but emotional agents are vulnerable to deceit},
+  author={Sadedin, S and Du\'e\~nez-Guzm\'an, EA and Leibo, JZ},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={},
+  number={},
+  pages={},
+  year={2023},
+  publisher={National Academy of Sciences}
+}
+```
 
 ## License and disclaimer
 
-Copyright 2023 DeepMind Technologies Limited
+Copyright 2023, the authors
 
 All software is licensed under the Apache License, Version 2.0 (Apache 2.0);
 you may not use this file except in compliance with the Apache 2.0 license.
