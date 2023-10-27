@@ -9,20 +9,25 @@ deceit**, published in the Proceedings of the National Academy of Sciences, 2023
 Clone this repository with
 
 ```sh
-git clone https://github.com/deepmind/deepmind-research.git
-cd deepmind-research/emotions_courtship
+git clone https://github.com/google-deepmind/emotions_courtship.git
+```
+
+You might need to install some dependencies:
+
+```sh
+pip3 install ml_collections absl-py numpy tree
 ```
 
 You can run the model with default parameters with:
 
 ```python
-python run_play.py
+python3 -m emotions_courtship.run_play
 ```
 
 You can change the model parameters by editing the `config.py` file.
 
 You can also load the dataset and the code used to produce the figures in the
-research article using Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deepmind/deepmind_research/blob/master/emotions_courtship/notebooks/data_analysis.ipynb)
+research article using Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-deepmind/emotions_courtship/blob/main/notebooks/data_analysis.ipynb)
 
 The full data used in the paper is at https://storage.googleapis.com/emotions_courtship/data.zip
 

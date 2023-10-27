@@ -12,35 +12,3 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-
-"""Binary to run the Emotions and Courtship model.
-
-Can run locally with:
-
-```sh
-python3 -m emotions_courtship.run_play
-```
-"""
-
-from typing import Sequence
-
-from absl import app
-from absl import logging
-from ml_collections import config_flags
-
-from . import play_model
-
-
-_CONFIG = config_flags.DEFINE_config_file(
-    'config', default='emotions_courtship/config.py')
-
-
-def main(argv: Sequence[str]) -> None:
-  if len(argv) > 1:
-    raise app.UsageError('Too many command-line arguments.')
-  logging.info('Running with config:\n%s', _CONFIG.value)
-  play_model.actual_run(_CONFIG.value)
-
-
-if __name__ == '__main__':
-  app.run(main)
