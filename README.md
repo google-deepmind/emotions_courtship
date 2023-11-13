@@ -38,10 +38,12 @@ The full data used in the paper is at https://storage.googleapis.com/emotions_co
   title={Emotions and courtship help bonded pairs cooperate, but emotional agents are vulnerable to deceit},
   author={Sadedin, S and Du\'e\~nez-Guzm\'an, EA and Leibo, JZ},
   journal={Proceedings of the National Academy of Sciences},
-  volume={},
-  number={},
-  pages={},
+  volume={120},
+  number={46},
+  pages={e2308911120},
   year={2023},
+  doi={10.1073/pnas.2308911120},
+  URL={https://www.pnas.org/doi/abs/10.1073/pnas.2308911120},
   publisher={National Academy of Sciences}
 }
 ```
